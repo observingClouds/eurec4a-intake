@@ -52,7 +52,6 @@ sources:
         default: "v1.0.0"
         allowed: ["v1.0.0"]
     metadata:
-      maintainer: Hauke Schulz <hauke.schulz[at]mpimet.mpg.de>
       documentation: https://wiki.mpimet.mpg.de/doku.php?id=observations:bco:radiation
       tags:
         - downwelling radiation
