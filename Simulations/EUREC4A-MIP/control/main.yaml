@@ -9,3 +9,11 @@ sources:
     description: "Simulation setups"
     driver: yaml_file_cat
     metadata: {}
+
+
+  open_boundary_LEM:
+    args:
+      path: "{{CATALOG_DIR}}/OpenBoundaryLargeEddyModels/main.yaml"
+    description: "EUREC4A-MIP simulations with open boundary conditions using Large Eddy Models"
+    driver: yaml_file_cat
+    metadata: {}
